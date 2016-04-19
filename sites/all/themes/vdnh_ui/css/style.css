@@ -312,15 +312,11 @@ th {
 }
 /* line 11, ..\build\bower_components\bootstrap\less\scaffolding.less */
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 /* line 14, ..\build\bower_components\bootstrap\less\scaffolding.less */
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 /* line 22, ..\build\bower_components\bootstrap\less\scaffolding.less */
@@ -382,7 +378,7 @@ img {
 }
 /* line 86, ..\build\bower_components\bootstrap\less\scaffolding.less */
 .img-rounded {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 93, ..\build\bower_components\bootstrap\less\scaffolding.less */
 .img-thumbnail {
@@ -390,9 +386,7 @@ img {
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  border-radius: 0px;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -871,7 +865,7 @@ code {
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 24, ..\build\bower_components\bootstrap\less\code.less */
 kbd {
@@ -879,7 +873,7 @@ kbd {
   font-size: 90%;
   color: #fff;
   background-color: #333;
-  border-radius: 3px;
+  border-radius: 0px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 /* line 32, ..\build\bower_components\bootstrap\less\code.less */
@@ -901,7 +895,7 @@ pre {
   color: #333333;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 55, ..\build\bower_components\bootstrap\less\code.less */
 pre code {
@@ -2102,8 +2096,6 @@ label {
 }
 /* line 47, ..\build\bower_components\bootstrap\less\forms.less */
 input[type="search"] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 /* line 52, ..\build\bower_components\bootstrap\less\forms.less */
@@ -2155,20 +2147,14 @@ output {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  border-radius: 0px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 /* line 57, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 /* line 103, ..\build\bower_components\bootstrap\less\mixins\vendor-prefixes.less */
@@ -2334,7 +2320,7 @@ fieldset[disabled] .checkbox label {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 76, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 select.input-sm {
@@ -2352,7 +2338,7 @@ select[multiple].input-sm {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 340, ..\build\bower_components\bootstrap\less\forms.less */
 .form-group-sm select.form-control {
@@ -2378,7 +2364,7 @@ select[multiple].input-sm {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 76, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 select.input-lg {
@@ -2396,7 +2382,7 @@ select[multiple].input-lg {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 368, ..\build\bower_components\bootstrap\less\forms.less */
 .form-group-lg select.form-control {
@@ -2469,15 +2455,11 @@ select[multiple].input-lg {
 /* line 21, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .has-success .form-control {
   border-color: #3c763d;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 24, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .has-success .form-control:focus {
   border-color: #2b542c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
 }
 /* line 31, ..\build\bower_components\bootstrap\less\mixins\forms.less */
@@ -2506,15 +2488,11 @@ select[multiple].input-lg {
 /* line 21, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .has-warning .form-control {
   border-color: #8a6d3b;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 24, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .has-warning .form-control:focus {
   border-color: #66512c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
 }
 /* line 31, ..\build\bower_components\bootstrap\less\mixins\forms.less */
@@ -2543,15 +2521,11 @@ select[multiple].input-lg {
 /* line 21, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .has-error .form-control {
   border-color: #a94442;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 24, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 .has-error .form-control:focus {
   border-color: #843534;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
 /* line 31, ..\build\bower_components\bootstrap\less\mixins\forms.less */
@@ -2692,7 +2666,8 @@ select[multiple].input-lg {
   font-weight: normal;
   text-align: center;
   vertical-align: middle;
-  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
@@ -2700,7 +2675,7 @@ select[multiple].input-lg {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2729,8 +2704,6 @@ select[multiple].input-lg {
 .btn.active {
   outline: 0;
   background-image: none;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 /* line 46, ..\build\bower_components\bootstrap\less\buttons.less */
@@ -2740,8 +2713,6 @@ fieldset[disabled] .btn {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 55, ..\build\bower_components\bootstrap\less\buttons.less */
@@ -3152,8 +3123,6 @@ fieldset[disabled] .btn-danger.focus {
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
   background-color: transparent;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 107, ..\build\bower_components\bootstrap\less\buttons.less */
@@ -3184,7 +3153,7 @@ fieldset[disabled] .btn-link:focus {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 137, ..\build\bower_components\bootstrap\less\buttons.less */
 .btn-sm,
@@ -3192,7 +3161,7 @@ fieldset[disabled] .btn-link:focus {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 141, ..\build\bower_components\bootstrap\less\buttons.less */
 .btn-xs,
@@ -3200,7 +3169,7 @@ fieldset[disabled] .btn-link:focus {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 149, ..\build\bower_components\bootstrap\less\buttons.less */
 .btn-block {
@@ -3220,8 +3189,6 @@ input[type="button"].btn-block {
 /* line 10, ..\build\bower_components\bootstrap\less\component-animations.less */
 .fade {
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 /* line 13, ..\build\bower_components\bootstrap\less\component-animations.less */
@@ -3249,17 +3216,14 @@ tbody.collapse.in {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition-property: height, visibility;
   transition-property: height, visibility;
-  -webkit-transition-duration: 0.35s;
   transition-duration: 0.35s;
-  -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
-  src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 /* line 22, ..\build\bower_components\bootstrap\less\glyphicons.less */
 .glyphicon {
@@ -4360,9 +4324,7 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border-radius: 0px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
 }
@@ -4589,14 +4551,10 @@ tbody.collapse.in {
 }
 /* line 116, ..\build\bower_components\bootstrap\less\button-groups.less */
 .btn-group.open .dropdown-toggle {
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 /* line 120, ..\build\bower_components\bootstrap\less\button-groups.less */
 .btn-group.open .dropdown-toggle.btn-link {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 127, ..\build\bower_components\bootstrap\less\button-groups.less */
@@ -4639,8 +4597,8 @@ tbody.collapse.in {
 }
 /* line 175, ..\build\bower_components\bootstrap\less\button-groups.less */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -4648,8 +4606,8 @@ tbody.collapse.in {
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 /* line 184, ..\build\bower_components\bootstrap\less\button-groups.less */
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
@@ -4729,7 +4687,7 @@ tbody.collapse.in {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 76, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 select.input-group-lg > .form-control,
@@ -4755,7 +4713,7 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 76, ..\build\bower_components\bootstrap\less\mixins\forms.less */
 select.input-group-sm > .form-control,
@@ -4802,19 +4760,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 89, ..\build\bower_components\bootstrap\less\input-groups.less */
 .input-group-addon.input-sm {
   padding: 5px 10px;
   font-size: 12px;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 94, ..\build\bower_components\bootstrap\less\input-groups.less */
 .input-group-addon.input-lg {
   padding: 10px 16px;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 101, ..\build\bower_components\bootstrap\less\input-groups.less */
 .input-group-addon input[type="radio"],
@@ -4949,7 +4907,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+  border-radius: 0px 0px 0 0;
 }
 /* line 89, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-tabs > li > a:hover {
@@ -4998,7 +4956,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 193, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-tabs.nav-justified > li > a {
   margin-right: 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 199, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-tabs.nav-justified > .active > a,
@@ -5010,7 +4968,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   /* line 206, ..\build\bower_components\bootstrap\less\navs.less */
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0px 0px 0 0;
   }
   /* line 210, ..\build\bower_components\bootstrap\less\navs.less */
   .nav-tabs.nav-justified > .active > a,
@@ -5025,7 +4983,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 /* line 122, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-pills > li > a {
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 125, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-pills > li + li {
@@ -5083,7 +5041,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 193, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-tabs-justified > li > a {
   margin-right: 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 199, ..\build\bower_components\bootstrap\less\navs.less */
 .nav-tabs-justified > .active > a,
@@ -5095,7 +5053,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   /* line 206, ..\build\bower_components\bootstrap\less\navs.less */
   .nav-tabs-justified > li > a {
     border-bottom: 1px solid #ddd;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0px 0px 0 0;
   }
   /* line 210, ..\build\bower_components\bootstrap\less\navs.less */
   .nav-tabs-justified > .active > a,
@@ -5128,7 +5086,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   /* line 20, ..\build\bower_components\bootstrap\less\navbar.less */
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -5278,7 +5236,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 206, ..\build\bower_components\bootstrap\less\navbar.less */
 .navbar-toggle:focus {
@@ -5360,8 +5318,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 10px 15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   margin-top: 8px;
   margin-bottom: 8px;
@@ -5446,8 +5402,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
     padding-top: 0;
     padding-bottom: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
   }
 }
@@ -5460,8 +5414,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 332, ..\build\bower_components\bootstrap\less\navbar.less */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -5758,7 +5712,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 13, ..\build\bower_components\bootstrap\less\breadcrumbs.less */
 .breadcrumb > li {
@@ -5779,7 +5733,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 10, ..\build\bower_components\bootstrap\less\pagination.less */
 .pagination > li {
@@ -5802,14 +5756,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
 }
 /* line 32, ..\build\bower_components\bootstrap\less\pagination.less */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 /* line 41, ..\build\bower_components\bootstrap\less\pagination.less */
 .pagination > li > a:hover,
@@ -5856,14 +5810,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 /* line 12, ..\build\bower_components\bootstrap\less\mixins\pagination.less */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
 }
 /* line 18, ..\build\bower_components\bootstrap\less\mixins\pagination.less */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 /* line 5, ..\build\bower_components\bootstrap\less\mixins\pagination.less */
 .pagination-sm > li > a,
@@ -5875,14 +5829,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 /* line 12, ..\build\bower_components\bootstrap\less\mixins\pagination.less */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
 }
 /* line 18, ..\build\bower_components\bootstrap\less\mixins\pagination.less */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 /* line 6, ..\build\bower_components\bootstrap\less\pager.less */
 .pager {
@@ -6093,7 +6047,7 @@ a.badge:focus {
 /* line 28, ..\build\bower_components\bootstrap\less\jumbotron.less */
 .container .jumbotron,
 .container-fluid .jumbotron {
-  border-radius: 6px;
+  border-radius: 0px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -6127,9 +6081,7 @@ a.badge:focus {
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border 0.2s ease-in-out;
-  -o-transition: border 0.2s ease-in-out;
+  border-radius: 0px;
   transition: border 0.2s ease-in-out;
 }
 /* line 17, ..\build\bower_components\bootstrap\less\thumbnails.less */
@@ -6154,7 +6106,7 @@ a.thumbnail.active {
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 16, ..\build\bower_components\bootstrap\less\alerts.less */
 .alert h4 {
@@ -6269,9 +6221,7 @@ a.thumbnail.active {
   height: 20px;
   margin-bottom: 20px;
   background-color: #f5f5f5;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 /* line 36, ..\build\bower_components\bootstrap\less\progress-bars.less */
@@ -6284,18 +6234,12 @@ a.thumbnail.active {
   color: #fff;
   text-align: center;
   background-color: #337ab7;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
 /* line 54, ..\build\bower_components\bootstrap\less\progress-bars.less */
 .progress-striped .progress-bar,
 .progress-bar-striped {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px;
 }
@@ -6303,7 +6247,6 @@ a.thumbnail.active {
 .progress.active .progress-bar,
 .progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
 }
 /* line 73, ..\build\bower_components\bootstrap\less\progress-bars.less */
@@ -6312,8 +6255,6 @@ a.thumbnail.active {
 }
 /* line 7, ..\build\bower_components\bootstrap\less\mixins\progress-bar.less */
 .progress-striped .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 /* line 77, ..\build\bower_components\bootstrap\less\progress-bars.less */
@@ -6322,8 +6263,6 @@ a.thumbnail.active {
 }
 /* line 7, ..\build\bower_components\bootstrap\less\mixins\progress-bar.less */
 .progress-striped .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 /* line 81, ..\build\bower_components\bootstrap\less\progress-bars.less */
@@ -6332,8 +6271,6 @@ a.thumbnail.active {
 }
 /* line 7, ..\build\bower_components\bootstrap\less\mixins\progress-bar.less */
 .progress-striped .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 /* line 85, ..\build\bower_components\bootstrap\less\progress-bars.less */
@@ -6342,8 +6279,6 @@ a.thumbnail.active {
 }
 /* line 7, ..\build\bower_components\bootstrap\less\mixins\progress-bar.less */
 .progress-striped .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 /* line 1, ..\build\bower_components\bootstrap\less\media.less */
@@ -6423,14 +6358,14 @@ a.thumbnail.active {
 }
 /* line 31, ..\build\bower_components\bootstrap\less\list-group.less */
 .list-group-item:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 /* line 34, ..\build\bower_components\bootstrap\less\list-group.less */
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 /* line 46, ..\build\bower_components\bootstrap\less\list-group.less */
 a.list-group-item,
@@ -6654,9 +6589,7 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 16, ..\build\bower_components\bootstrap\less\panels.less */
@@ -6667,8 +6600,8 @@ button.list-group-item-danger.active:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
 }
 /* line 27, ..\build\bower_components\bootstrap\less\panels.less */
 .panel-heading > .dropdown .dropdown-toggle {
@@ -6694,8 +6627,8 @@ button.list-group-item-danger.active:focus {
   padding: 10px 15px;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
 }
 /* line 63, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .list-group,
@@ -6712,15 +6645,15 @@ button.list-group-item-danger.active:focus {
 .panel > .list-group:first-child .list-group-item:first-child,
 .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
 }
 /* line 82, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .list-group:last-child .list-group-item:last-child,
 .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
   border-bottom: 0;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
 }
 /* line 89, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
@@ -6751,16 +6684,16 @@ button.list-group-item-danger.active:focus {
 /* line 121, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
 }
 /* line 127, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: -1px;
+  border-top-right-radius: -1px;
 }
 /* line 131, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
@@ -6771,7 +6704,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-  border-top-left-radius: 3px;
+  border-top-left-radius: -1px;
 }
 /* line 135, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
@@ -6782,21 +6715,21 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-  border-top-right-radius: 3px;
+  border-top-right-radius: -1px;
 }
 /* line 143, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
 }
 /* line 149, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: -1px;
+  border-bottom-right-radius: -1px;
 }
 /* line 153, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
@@ -6807,7 +6740,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: -1px;
 }
 /* line 157, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
@@ -6818,7 +6751,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: -1px;
 }
 /* line 164, ..\build\bower_components\bootstrap\less\panels.less */
 .panel > .panel-body + .table,
@@ -6901,7 +6834,7 @@ button.list-group-item-danger.active:focus {
 /* line 226, ..\build\bower_components\bootstrap\less\panels.less */
 .panel-group .panel {
   margin-bottom: 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 230, ..\build\bower_components\bootstrap\less\panels.less */
 .panel-group .panel + .panel {
@@ -7069,9 +7002,7 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 20px;
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 15, ..\build\bower_components\bootstrap\less\wells.less */
@@ -7082,12 +7013,12 @@ button.list-group-item-danger.active:focus {
 /* line 22, ..\build\bower_components\bootstrap\less\wells.less */
 .well-lg {
   padding: 24px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 /* line 26, ..\build\bower_components\bootstrap\less\wells.less */
 .well-sm {
   padding: 9px;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 /* line 6, ..\build\bower_components\bootstrap\less\close.less */
 .close {
@@ -7137,19 +7068,14 @@ button.close {
 /* line 32, ..\build\bower_components\bootstrap\less\modals.less */
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
-  -ms-transform: translate(0, -25%);
-  -o-transform: translate(0, -25%);
   transform: translate(0, -25%);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -moz-transition: -moz-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 /* line 36, ..\build\bower_components\bootstrap\less\modals.less */
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 /* line 38, ..\build\bower_components\bootstrap\less\modals.less */
@@ -7169,9 +7095,7 @@ button.close {
   background-color: #fff;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
@@ -7250,8 +7174,6 @@ button.close {
   }
   /* line 140, ..\build\bower_components\bootstrap\less\modals.less */
   .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
   /* line 145, ..\build\bower_components\bootstrap\less\modals.less */
@@ -7321,7 +7243,7 @@ button.close {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 36, ..\build\bower_components\bootstrap\less\tooltip.less */
 .tooltip-arrow {
@@ -7424,9 +7346,7 @@ button.close {
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 /* line 27, ..\build\bower_components\bootstrap\less\popovers.less */
@@ -7452,7 +7372,7 @@ button.close {
   font-size: 14px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-radius: 5px 5px 0 0;
+  border-radius: -1px -1px 0 0;
 }
 /* line 42, ..\build\bower_components\bootstrap\less\popovers.less */
 .popover-content {
@@ -7559,8 +7479,6 @@ button.close {
 .carousel-inner > .item {
   display: none;
   position: relative;
-  -webkit-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
 /* line 22, ..\build\bower_components\bootstrap\less\carousel.less */
@@ -7571,15 +7489,12 @@ button.close {
 @media all and (transform-3d), (-webkit-transform-3d) {
   /* line 29, ..\build\bower_components\bootstrap\less\carousel.less */
   .carousel-inner > .item {
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
-    -moz-transition: -moz-transform 0.6s ease-in-out;
-    -o-transition: -o-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
     -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
-    -moz-perspective: 1000px;
     perspective: 1000px;
   }
   /* line 34, ..\build\bower_components\bootstrap\less\carousel.less */
@@ -7660,8 +7575,6 @@ button.close {
 }
 /* line 109, ..\build\bower_components\bootstrap\less\carousel.less */
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
@@ -7670,8 +7583,6 @@ button.close {
 .carousel-control.right {
   left: auto;
   right: 0;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
@@ -8246,8 +8157,6 @@ body div#admin-toolbar {
 body #toolbar,
 body #admin-menu,
 body #admin-toolbar {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 96, ..\themes\vdnh_ui\less\overrides.less */
@@ -8478,7 +8387,7 @@ table.sticky-header {
 }
 /* line 300, ..\themes\vdnh_ui\less\overrides.less */
 .resizable-textarea textarea {
-  border-radius: 4px 4px 0 0;
+  border-radius: 0px 0px 0 0;
 }
 /* line 303, ..\themes\vdnh_ui\less\overrides.less */
 .text-format-wrapper {
@@ -8491,7 +8400,7 @@ table.sticky-header {
 }
 /* line 311, ..\themes\vdnh_ui\less\overrides.less */
 .filter-wrapper {
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 0px 0px;
 }
 /* line 313, ..\themes\vdnh_ui\less\overrides.less */
 .filter-wrapper .panel-body {
@@ -8645,11 +8554,7 @@ ul li.leaf {
 /* line 423, ..\themes\vdnh_ui\less\overrides.less */
 .form-type-password-confirm .progress {
   background: transparent;
-  -moz-border-radius: 0 0 5px 5px;
-  -webkit-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   height: 4px;
   margin: -5px 0px 0;
@@ -8685,7 +8590,7 @@ ul.pagination li > a.progress-disabled {
 }
 /* line 465, ..\themes\vdnh_ui\less\overrides.less */
 .ajax-progress-bar {
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 0px 0px;
   border: 1px solid #ccc;
   margin: -1px 0 0;
   padding: 6px 12px;
@@ -8708,8 +8613,6 @@ ul.pagination li > a.progress-disabled {
 /* line 485, ..\themes\vdnh_ui\less\overrides.less */
 .glyphicon-spin {
   display: inline-block;
-  -moz-animation: spin 1s infinite linear;
-  -o-animation: spin 1s infinite linear;
   -webkit-animation: spin 1s infinite linear;
   animation: spin 1s infinite linear;
 }
@@ -8717,16 +8620,6 @@ ul.pagination li > a.progress-disabled {
 a .glyphicon-spin {
   display: inline-block;
   text-decoration: none;
-}
-@-moz-keyframes spin {
-  /* line 497, ..\themes\vdnh_ui\less\overrides.less */
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  /* line 500, ..\themes\vdnh_ui\less\overrides.less */
-  100% {
-    -moz-transform: rotate(359deg);
-  }
 }
 @-webkit-keyframes spin {
   /* line 505, ..\themes\vdnh_ui\less\overrides.less */
@@ -8738,34 +8631,16 @@ a .glyphicon-spin {
     -webkit-transform: rotate(359deg);
   }
 }
-@-o-keyframes spin {
-  /* line 513, ..\themes\vdnh_ui\less\overrides.less */
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  /* line 516, ..\themes\vdnh_ui\less\overrides.less */
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-@-ms-keyframes spin {
-  /* line 521, ..\themes\vdnh_ui\less\overrides.less */
-  0% {
-    -ms-transform: rotate(0deg);
-  }
-  /* line 524, ..\themes\vdnh_ui\less\overrides.less */
-  100% {
-    -ms-transform: rotate(359deg);
-  }
-}
 @keyframes spin {
   /* line 529, ..\themes\vdnh_ui\less\overrides.less */
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   /* line 532, ..\themes\vdnh_ui\less\overrides.less */
   100% {
-    transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
   }
 }
 /**
@@ -8809,7 +8684,7 @@ a .glyphicon-spin {
 }
 /* line 568, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-below > .nav-tabs > li > a {
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 0px 0px;
 }
 /* line 570, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-below > .nav-tabs > li > a:hover,
@@ -8853,9 +8728,7 @@ a .glyphicon-spin {
 /* line 607, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-left > .tab-content,
 .tabs-right > .tab-content {
-  border-radius: 0 4px 4px 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 0 0px 0px 0px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
   overflow: hidden;
@@ -8868,7 +8741,7 @@ a .glyphicon-spin {
 }
 /* line 621, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-left > .nav-tabs > li > a {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0px 0 0 0px;
 }
 /* line 623, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-left > .nav-tabs > li > a:hover,
@@ -8880,8 +8753,6 @@ a .glyphicon-spin {
 .tabs-left > .nav-tabs > .active > a:hover,
 .tabs-left > .nav-tabs > .active > a:focus {
   border-color: #ddd transparent #ddd #ddd;
-  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 639, ..\themes\vdnh_ui\less\overrides.less */
@@ -8891,14 +8762,12 @@ a .glyphicon-spin {
 }
 /* line 642, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-right > .nav-tabs > li > a {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0px 0px 0;
 }
 /* line 644, ..\themes\vdnh_ui\less\overrides.less */
 .tabs-right > .nav-tabs > li > a:hover,
 .tabs-right > .nav-tabs > li > a:focus {
   border-color: #eeeeee #eeeeee #eeeeee #ddd;
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 650, ..\themes\vdnh_ui\less\overrides.less */
@@ -9001,8 +8870,6 @@ td.module,
 }
 /* line 748, ..\themes\vdnh_ui\less\overrides.less */
 .book-toc > .dropdown-menu .dropdown-menu {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   border: 0;
   display: block;
@@ -9107,4 +8974,696 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 /* line 837, ..\themes\vdnh_ui\less\overrides.less */
 #navbar-administration.navbar-oriented .navbar-tray-vertical {
   width: 24rem;
+}
+/* line 1, ..\themes\vdnh_ui\less\base.less */
+html {
+  width: 100%;
+  height: 100%;
+}
+/* line 6, ..\themes\vdnh_ui\less\base.less */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #6f7074;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+/* line 15, ..\themes\vdnh_ui\less\base.less */
+h1,
+h2 {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 20, ..\themes\vdnh_ui\less\base.less */
+h3 {
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 767px) {
+  /* line 27, ..\themes\vdnh_ui\less\base.less */
+  .navbar {
+    padding: 20px 0;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  /* line 34, ..\themes\vdnh_ui\less\base.less */
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+/* line 39, ..\themes\vdnh_ui\less\base.less */
+.region-content {
+  height: 100%;
+}
+/* line 44, ..\themes\vdnh_ui\less\base.less */
+.styled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 50, ..\themes\vdnh_ui\less\base.less */
+.styled li {
+  margin-bottom: 30px;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+/* line 56, ..\themes\vdnh_ui\less\base.less */
+.styled li:before {
+  content: "";
+  margin-left: -30px;
+  height: 17px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  left: -30px;
+}
+/* line 67, ..\themes\vdnh_ui\less\base.less */
+.circle li:before {
+  background: url(../images/circle.png) no-repeat center center;
+}
+/* line 71, ..\themes\vdnh_ui\less\base.less */
+.circle.blue li:before {
+  background: url(../images/blue-circle.png) no-repeat center center;
+}
+/* line 76, ..\themes\vdnh_ui\less\base.less */
+ol.in-circle {
+  counter-reset: li;
+  /* Initiate a counter */
+  margin-left: 0;
+  /* Remove the default left margin */
+  padding-left: 0;
+  /* Remove the default left padding */
+}
+/* line 81, ..\themes\vdnh_ui\less\base.less */
+ol.in-circle > li {
+  position: relative;
+  /* Create a positioning context */
+  margin: 0 0 6px 2em;
+  /* Give each list item a left margin to make room for the numbers */
+  padding: 4px 0 4px 30px;
+  /* Add some spacing around the content */
+  list-style: none;
+  /* Disable the normal item numbering */
+}
+/* line 87, ..\themes\vdnh_ui\less\base.less */
+ol.in-circle > li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: 2px;
+  left: -2em;
+  box-sizing: border-box;
+  width: 2em;
+  margin-right: 30px;
+  padding: 4px;
+  border: black 1px solid;
+  text-align: center;
+  border-radius: 100%;
+}
+/* line 105, ..\themes\vdnh_ui\less\base.less */
+ol.in-circle.blue > li:before {
+  background: #229fff;
+  color: white;
+  border-color: #229fff;
+}
+/* line 115, ..\themes\vdnh_ui\less\base.less */
+.timeline {
+  padding-left: 10em;
+}
+/* line 118, ..\themes\vdnh_ui\less\base.less */
+.timeline .tl-wrap {
+  border-width: 0 0 0 1px;
+}
+/* line 122, ..\themes\vdnh_ui\less\base.less */
+.timeline .tl-wrap:before {
+  top: 35px;
+  background: #19de0f;
+  box-shadow: 0 0 0 4px #19de0f;
+  border-width: 0;
+  margin-left: -25px;
+}
+/* line 131, ..\themes\vdnh_ui\less\base.less */
+.timeline .tl-item.offline .tl-wrap:before {
+  background: #edf1f2;
+  box-shadow: 0 0 0 4px #edf1f2;
+  border-width: 3px;
+}
+/* line 138, ..\themes\vdnh_ui\less\base.less */
+.timeline .tl-date {
+  font-size: 36px;
+  white-space: nowrap;
+  font-weight: 100;
+  color: #229fff;
+}
+/* line 145, ..\themes\vdnh_ui\less\base.less */
+.timeline .tl-content {
+  font-size: 24px;
+  color: black;
+  border: none;
+  box-shadow: none;
+}
+/* line 151, ..\themes\vdnh_ui\less\base.less */
+.timeline .tl-content em,
+.timeline .tl-content i {
+  display: block;
+  font-size: 18px;
+}
+/* line 158, ..\themes\vdnh_ui\less\base.less */
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+/* line 185, ..\themes\vdnh_ui\less\base.less */
+.carousel-inner .item {
+  text-align: center;
+}
+/* line 188, ..\themes\vdnh_ui\less\base.less */
+.carousel-inner .item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 194, ..\themes\vdnh_ui\less\base.less */
+.carousel-control {
+  background: none !important;
+}
+/* line 2, ..\themes\vdnh_ui\less\grid.less */
+#left-sidebar {
+  display: block;
+}
+/* line 5, ..\themes\vdnh_ui\less\grid.less */
+#right-sidebar {
+  display: block;
+}
+@media (min-width: 768px) {
+  /* line 10, ..\themes\vdnh_ui\less\grid.less */
+  #left-sidebar,
+  #right-sidebar {
+    /* any change has to be replicated in #footer below */
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 15%;
+  }
+  /* line 17, ..\themes\vdnh_ui\less\grid.less */
+  #left-sidebar {
+    left: 0%;
+    background: #acacac;
+  }
+  /* line 21, ..\themes\vdnh_ui\less\grid.less */
+  #right-sidebar {
+    right: 0;
+  }
+}
+/* line 32, ..\themes\vdnh_ui\less\grid.less */
+#main-content-section {
+  display: block;
+  position: relative;
+  margin: 20px 5%;
+  overflow: visible;
+  min-height: 1px;
+}
+@media (min-width: 768px) {
+  /* line 41, ..\themes\vdnh_ui\less\grid.less */
+  #main-content-section {
+    margin: 0 0 0 15%;
+    height: 100%;
+  }
+}
+/* line 53, ..\themes\vdnh_ui\less\grid.less */
+footer {
+  padding: 20px 5%;
+  background: #acacac;
+  border: none;
+}
+/* line 58, ..\themes\vdnh_ui\less\grid.less */
+footer,
+footer a {
+  color: #333e48;
+  font-size: 20px;
+}
+/* line 64, ..\themes\vdnh_ui\less\grid.less */
+footer a {
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  /* line 68, ..\themes\vdnh_ui\less\grid.less */
+  footer {
+    padding: 0 15%;
+  }
+}
+/* line 1, ..\themes\vdnh_ui\less\navs.less */
+.navbar-btn {
+  margin: 0;
+  padding: 0;
+  background: #747474;
+}
+@media (min-width: 768px) {
+  /* line 6, ..\themes\vdnh_ui\less\navs.less */
+  .navbar-btn {
+    width: 100%;
+    min-height: 175px;
+    position: relative;
+  }
+  /* line 11, ..\themes\vdnh_ui\less\navs.less */
+  .navbar-btn img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 175px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+/* line 23, ..\themes\vdnh_ui\less\navs.less */
+#block-block-1,
+#block-block-13 {
+  background: #229fff;
+  padding: 30px;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  /* line 26, ..\themes\vdnh_ui\less\navs.less */
+  #block-block-1,
+  #block-block-13 {
+    position: fixed;
+    top: 300px;
+  }
+}
+/* line 35, ..\themes\vdnh_ui\less\navs.less */
+#block-block-1 ul,
+#block-block-13 ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 40, ..\themes\vdnh_ui\less\navs.less */
+#block-block-1 li,
+#block-block-13 li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+/* line 45, ..\themes\vdnh_ui\less\navs.less */
+#block-block-1 a,
+#block-block-13 a {
+  color: white;
+}
+/* line 48, ..\themes\vdnh_ui\less\navs.less */
+#block-block-1 a:hover,
+#block-block-13 a:hover {
+  text-decoration: underline;
+}
+/* line 54, ..\themes\vdnh_ui\less\navs.less */
+#block-block-13 {
+  background: white;
+}
+/* line 57, ..\themes\vdnh_ui\less\navs.less */
+#block-block-13 a {
+  color: #6f7074;
+}
+/* line 62, ..\themes\vdnh_ui\less\navs.less */
+.region-sidebar-first.well {
+  padding: 0;
+}
+/* line 66, ..\themes\vdnh_ui\less\navs.less */
+#block-block-9 {
+  padding: 80px 30px;
+  background-color: #fdda24;
+  margin-top: 60px;
+  text-align: center;
+}
+/* line 72, ..\themes\vdnh_ui\less\navs.less */
+#block-block-9 a {
+  font-weight: 600;
+  color: #229fff;
+  text-decoration: underline;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 83, ..\themes\vdnh_ui\less\navs.less */
+#left-sidebar .menu.navbar-nav {
+  margin-top: 100px;
+}
+/* line 87, ..\themes\vdnh_ui\less\navs.less */
+#left-sidebar .menu.navbar-nav li {
+  margin-bottom: 15px;
+}
+/* line 91, ..\themes\vdnh_ui\less\navs.less */
+#left-sidebar .menu.navbar-nav a {
+  color: #808284;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 96, ..\themes\vdnh_ui\less\navs.less */
+#left-sidebar .menu.navbar-nav a:hover,
+#left-sidebar .menu.navbar-nav a.active {
+  color: #333e48;
+  text-decoration: underline;
+  background: none;
+}
+/* line 1, ..\themes\vdnh_ui\less\pages.less */
+.region-content section.block {
+  height: 100%;
+  padding: 70px 100px;
+  border-bottom: #229fff 1px solid;
+  padding-right: 20% !important;
+}
+/* line 7, ..\themes\vdnh_ui\less\pages.less */
+.region-content section.block:last-child {
+  border: none;
+}
+/* line 11, ..\themes\vdnh_ui\less\pages.less */
+.region-content section.block li {
+  margin-bottom: 30px;
+}
+/* line 16, ..\themes\vdnh_ui\less\pages.less */
+.region-content section.block .timeline li {
+  margin-bottom: 0;
+}
+/* line 23, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 h1 {
+  display: none;
+}
+/* line 31, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 #main-content-section > header img,
+.page-node-2 #main-content-section > header img {
+  display: none;
+}
+/* line 38, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 h1 {
+  display: none;
+}
+/* line 42, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 #block-system-main {
+  display: none;
+}
+/* line 47, ..\themes\vdnh_ui\less\pages.less */
+.page-node-2 #main-content-section > header {
+  background: #acacac;
+  color: white;
+  padding: 30px 100px;
+  min-height: 175px;
+}
+/* line 54, ..\themes\vdnh_ui\less\pages.less */
+.page-node-2 h1 {
+  padding-top: 30px 0 0 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  color: #333e48;
+  font-weight: 400;
+  border-bottom: #333e48 4px solid;
+}
+/* line 64, ..\themes\vdnh_ui\less\pages.less */
+.page-node-2 h2 {
+  margin-bottom: 40px;
+}
+/* line 68, ..\themes\vdnh_ui\less\pages.less */
+.page-node-2 .region-content section.block {
+  border-color: #6f7074;
+}
+/* line 75, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 #main-content-section > header,
+.page-node-1 #main-content-section > header {
+  background: #1e8ade;
+  color: white;
+  padding: 30px 100px;
+  min-height: 175px;
+}
+/* line 82, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 .region-precontent,
+.page-node-1 .region-precontent {
+  background: #229fff;
+}
+/* line 85, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 .region-precontent section.block,
+.page-node-1 .region-precontent section.block {
+  height: 100%;
+  padding: 70px 100px;
+  border-bottom: #229fff 1px solid;
+  padding-right: 20% !important;
+}
+/* line 97, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 #block-block-10 h2,
+.page-node-3 #block-block-10 p {
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 103, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 #block-block-10 h2 {
+  color: #fdda24;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+/* line 110, ..\themes\vdnh_ui\less\pages.less */
+.page-node-3 #block-block-10 p {
+  color: white;
+  font-size: 26px;
+  line-height: 46px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 118, ..\themes\vdnh_ui\less\pages.less */
+  .page-node-3 #block-block-10 h2 {
+    width: 40%;
+    font-size: 30px;
+  }
+  /* line 123, ..\themes\vdnh_ui\less\pages.less */
+  .page-node-3 #block-block-10 p {
+    width: 60%;
+    padding-left: 10%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 130, ..\themes\vdnh_ui\less\pages.less */
+  .page-node-3 #block-block-10 h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 136, ..\themes\vdnh_ui\less\pages.less */
+  .page-node-3 #block-block-10 h2 {
+    font-size: 50px;
+  }
+}
+/* line 144, ..\themes\vdnh_ui\less\pages.less */
+#block-block-2 h2,
+#block-block-2 h3 {
+  color: #229fff;
+}
+/* line 148, ..\themes\vdnh_ui\less\pages.less */
+#block-block-2 h2 {
+  font-size: 48px;
+}
+/* line 152, ..\themes\vdnh_ui\less\pages.less */
+#block-block-2 h3 {
+  font-size: 26;
+  line-height: 46px;
+  margin-bottom: 60px;
+}
+/* line 160, ..\themes\vdnh_ui\less\pages.less */
+#block-block-3 h2 {
+  text-align: center;
+}
+/* line 166, ..\themes\vdnh_ui\less\pages.less */
+#block-block-4 {
+  background: #229fff;
+  color: black;
+}
+/* line 170, ..\themes\vdnh_ui\less\pages.less */
+#block-block-4 h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fdda24;
+  margin-bottom: 40px;
+}
+/* line 178, ..\themes\vdnh_ui\less\pages.less */
+#block-block-5 {
+  position: relative;
+}
+/* line 181, ..\themes\vdnh_ui\less\pages.less */
+#block-block-5 h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #229fff;
+  margin-bottom: 80px;
+}
+/* line 188, ..\themes\vdnh_ui\less\pages.less */
+#block-block-5 .legend {
+  border: #fdda24 2px solid;
+  display: inline-block;
+  position: absolute;
+  right: 15%;
+  bottom: 40px;
+  padding: 30px 30px 30px 60px;
+}
+/* line 196, ..\themes\vdnh_ui\less\pages.less */
+#block-block-5 .legend li {
+  margin-bottom: 10px;
+  list-style: none;
+  font-style: italic;
+  color: #229fff;
+}
+/* line 203, ..\themes\vdnh_ui\less\pages.less */
+#block-block-5 .legend li:before {
+  top: 35px;
+  background: #19de0f;
+  box-shadow: 0 0 0 4px #19de0f;
+  border-width: 0;
+  position: relative;
+  content: "";
+  float: left;
+  top: 7px;
+  margin-left: -27px;
+  width: 10px;
+  height: 10px;
+  border-color: inherit;
+  border-radius: 50%;
+  border-style: solid;
+  color: #dee5e7;
+}
+/* line 221, ..\themes\vdnh_ui\less\pages.less */
+#block-block-5 .legend li.offline:before {
+  background: #edf1f2;
+  box-shadow: 0 0 0 4px #edf1f2;
+  border-width: 3px;
+}
+/* line 230, ..\themes\vdnh_ui\less\pages.less */
+#block-block-6 h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #229fff;
+  margin-bottom: 80px;
+}
+/* line 239, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 #block-block-11 {
+  color: white;
+}
+/* line 242, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 #block-block-11 h3 {
+  color: #fdda24;
+  margin-top: 60px;
+}
+/* line 248, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 h2 {
+  font-size: 46px;
+  color: #fdda24;
+  margin-bottom: 60px;
+}
+/* line 254, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 h3 {
+  margin-bottom: 40px;
+}
+/* line 259, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 ol {
+  color: black;
+}
+/* line 262, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 ol li {
+  margin-bottom: 20px;
+}
+/* line 268, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form h3 {
+  color: #229fff;
+}
+/* line 272, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .panel-default {
+  border: none;
+  border-bottom: #229fff 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+/* line 278, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .panel-default legend {
+  background: none;
+  background-color: transparent !important;
+  border: none;
+  color: #229fff;
+}
+/* line 285, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .panel-default label {
+  font-weight: 300;
+}
+/* line 290, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .webform-component-shs,
+.page-node-1 form #edit-submitted-additional-info-pfiles-ajax-wrapper {
+  margin-bottom: 15px;
+}
+/* line 296, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .form-item-submitted-projectinfo-projectcategory select {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+/* line 300, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .form-item-submitted-projectinfo-projectcategory select + select {
+  margin-top: 15px;
+}
+/* line 305, ..\themes\vdnh_ui\less\pages.less */
+.page-node-1 form .form-managed-file button {
+  margin-top: 15px;
+}
+/* line 314, ..\themes\vdnh_ui\less\pages.less */
+#block-block-12 h2,
+#block-block-14 h2,
+#block-block-15 h2 {
+  color: #333e48;
+  font-weight: 400;
+  border-bottom: #333e48 4px solid;
+  margin-bottom: 60px;
+}
+/* line 324, ..\themes\vdnh_ui\less\pages.less */
+#block-block-14 img,
+#block-block-15 img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 331, ..\themes\vdnh_ui\less\pages.less */
+#block-block-15 .why {
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  /* line 334, ..\themes\vdnh_ui\less\pages.less */
+  #block-block-15 .why {
+    width: 50%;
+    float: left;
+  }
+  /* line 338, ..\themes\vdnh_ui\less\pages.less */
+  #block-block-15 .why.why-01 {
+    font-size: 14px;
+  }
+  /* line 341, ..\themes\vdnh_ui\less\pages.less */
+  #block-block-15 .why.why-01 li {
+    margin-bottom: 10px;
+  }
+  /* line 345, ..\themes\vdnh_ui\less\pages.less */
+  #block-block-15 .why.why-01 h3 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: black;
+    margin-left: 60px;
+  }
+  /* line 352, ..\themes\vdnh_ui\less\pages.less */
+  #block-block-15 .why.why-01 ul:first-child {
+    margin-bottom: 40px;
+  }
 }

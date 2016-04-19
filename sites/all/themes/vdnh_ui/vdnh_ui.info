@@ -12,6 +12,7 @@ regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
+regions[precontent]        = 'PreContent'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
@@ -24,6 +25,7 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] = '../../build/bower_components/timeline/src/jquery.timeline.css'
 stylesheets[all][] = css/style.css
 
 
@@ -45,6 +47,10 @@ stylesheets[all][] = css/style.css
 ;scripts[] = '../bootstrap/js/transition.js'
 
 scripts[] = 'js/bootstrap.min.js'
+scripts[] = 'js/jquery.easing.min.js'
+scripts[] = 'js/scrolling-nav.js'
+
+
 
 ; Disable BootstrapCDN so the compiled LESS source files can be used.
 settings[bootstrap_cdn] = ''
