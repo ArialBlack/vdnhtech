@@ -20,6 +20,12 @@
     }
 }
 
+.navbar-btn {
+    @media (min-width: 768px) {
+        float: left !important;
+    }
+}
+
 #block-block-1,
 #block-block-13 {
     
@@ -83,6 +89,10 @@
     .menu.navbar-nav {
         
         margin-top: 100px;
+        
+        &.bot {
+            margin-top: 0px;
+        }
         
         li {
             margin-bottom: 15px;

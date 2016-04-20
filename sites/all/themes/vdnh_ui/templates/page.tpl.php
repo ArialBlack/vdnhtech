@@ -80,16 +80,19 @@
 
       <aside role="complementary" id="left-sidebar">
       
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+      <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       
           <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-          <div class="navbar-collapse collapse">
+          <div class="navbar-collapse">
             <nav role="navigation">
               <?php if (!empty($primary_nav)): ?>
                 <?php print render($primary_nav); ?>
               <?php endif; ?>
+              <ul class="menu nav navbar-nav bot">
+              <li class="leaf"><a href="/home#contacts">Контакти</a></li>
+              </ul>
               <?php if (!empty($secondary_nav)): ?>
                 <?php print render($secondary_nav); ?>
               <?php endif; ?>
