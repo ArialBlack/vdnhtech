@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     background: #747474;
+    width: 100%;
+    display: block;
+    text-align: center;
     
     @media (min-width: 768px) {
         width: 100%;
@@ -14,6 +17,7 @@
             height: auto;
             max-height: @hh;
             position: absolute;
+            left: 0;
             top: 50%;
             transform: translateY(-50%);
         }
@@ -31,7 +35,7 @@
     
     @media (min-width: 768px) {
         position: fixed;
-        top: 300px;
+        top: 200px;
     }
     
     background: @vdnh-blue;
@@ -67,13 +71,40 @@
 
 .region-sidebar-first.well {
     padding: 0;
+    margin-bottom: 0;
+}
+
+#block-block-16 {
+    margin-top: 20px;
+    
+    img {
+        width: 100%;
+    }
+    
+    @media (min-width: 768px) {
+        position: absolute;
+        left: 0;
+    }
 }
 
 #block-block-9 {
-    padding: 80px 30px;
     background-color: @vdnh-yellow;
-    margin-top: 60px;
     text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    
+    @media (min-width: 768px) {
+        padding: 30px 20px;
+        margin-top: 40px;
+    }
+    
+    @media (min-width: 992px) {
+        padding: 40px 20px;
+    }
+    
+    @media (min-width: 1200px) {
+        padding: 50px 20px;
+    }
     
     a {
         font-weight: 600;
@@ -88,20 +119,43 @@
 #left-sidebar {
     .menu.navbar-nav {
         
-        margin-top: 100px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        
+        li {
+            margin-bottom: 6px
+        }
+        
+        li > a {
+            padding: 4px 8px;
+        }
+        
+        @media (min-width: 768px) {
+            margin-top: 40px;
+            
+            li {
+                margin-bottom: 10px;
+                
+                a {
+                    padding: 6px 10px;
+                }
+            }
+        }
         
         &.bot {
             margin-top: 0px;
         }
         
-        li {
-            margin-bottom: 15px;
-        }
+        
         
         a {
             color: #808284;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 16px;
+            
+            @media (min-width: 768px) {
+                font-size: 18px;
+            }
             
             &:hover,
             &.active {

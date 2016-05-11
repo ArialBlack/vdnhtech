@@ -17,24 +17,24 @@ module.exports = function(grunt) {
             }
         },
         
-        ftp_push: {
-            your_target: {
+       ftp_push: {
+           your_target: {
                 options: {
 		            authKey: "serverA",
-    	            host: "ftp.vdngtech.com",
-    	            dest: "/",
-    	            port: 21
-                },
+    	           host: "ftp.vdngtech.com",
+    	           dest: "/",
+    	           port: 21
+              },
                 files: [
-                    {
-                        expand: true,
-                        cwd: '../themes/vdnh_ui',
+                   {
+                       expand: true,
+                       cwd: '../themes/vdnh_ui',
                         src: [
-                        "**"
+                       "**"
                         ],
                         dest: '/sites/all/themes/vdnh_ui'
                     }
-                ]
+               ]
             }
         },
 
@@ -56,6 +56,13 @@ module.exports = function(grunt) {
                     '!../themes/vdnh_ui/**/*.less'
                 ],
                 tasks: ['ftp_push']
+            },
+          
+          copy: {
+                files: [
+                    '../themes/vdnh_ui/**/*.*'
+                ],
+                tasks: ['copy:main']
             }
         },
         
@@ -68,7 +75,18 @@ module.exports = function(grunt) {
             dist: {
               src: '../themes/vdnh_ui/css/style.css'
             }
-        }
+        },
+        
+        copy: {
+            main: {
+                files: [
+                    // includes files within path and its sub-directories
+                    {expand: true, src: ['../themes/vdnh_ui/**'], dest: 'd:/Open server/domains/vdnh-tech.dev/sites/all/themes/'},
+                ],
+            },
+        },
+
+
         
     });
 
@@ -77,8 +95,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-ftp-push');
     grunt.loadNpmTasks('grunt-postcss');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // register tasks
     grunt.registerTask('default', ['less', 'postcss', 'ftp_push', 'watch']);
     grunt.registerTask('jenkins', ['less', 'postcss', 'ftp_push']);
+   
+   // grunt.registerTask('default', ['less', 'postcss', 'copy:main', 'watch']);
+   // grunt.registerTask('jenkins', ['less', 'postcss', 'copy:main']);
 };
