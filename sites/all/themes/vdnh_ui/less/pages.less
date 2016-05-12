@@ -40,12 +40,17 @@
 }
 
 .page-node-2 .headerwrap,
-.page-team  .headerwrap {
+.page-team  .headerwrap,
+.page-news  .headerwrap,
+.node-type-article .headerwrap {
     display: block;
 }
 
 .page-node-2 .headerwrap,
-.page-team  .headerwrap {
+.page-team  .headerwrap,
+.page-news  .headerwrap,
+.node-type-article .headerwrap,
+ {
     @media(min-width:767px) {
         padding-right: 20% !important;
     }
@@ -79,6 +84,10 @@
 .page-node-2 .headerwrap,
 .page-team #main-content-section > header,
 .page-team .headerwrap,
+.page-news #main-content-section > header,
+.page-news .headerwrap,
+.node-type-article #main-content-section > header,
+.node-type-article .headerwrap,
 .page-node-3 #main-content-section > header,
 .page-node-1 #main-content-section > header,
 .page-node-3 .region-precontent section.block,
@@ -99,7 +108,9 @@
 }
          
 .page-node-2,
-.page-team {
+.page-team,
+.page-news,
+.node-type-article {
      #main-content-section > header {
         background: #acacac;
         color: white;
@@ -537,5 +548,87 @@
     }
 }
 
+.node-type-article {
+    .field-name-body {
+        p {
+            text-align: justify;
+        }
+    }
+    
+    h1 {
+        display: none;
+    }
+    
+    h2 {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    
+    .field-name-field-image {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    
+    .allnewslink {
+        margin-top: 60px;
+        padding-top: 60px;
+        clear: both;
+    }
+}
 
+.view-news {
+    .views-row {
+        margin-bottom: 80px;
+        
+        img {
+            max-width: none;
+        }
+        
+        a {
+            color: @vdnh-dark;
+        }
+        
+        h4 {
+            font-weight: 300;
+            text-transform: uppercase;
+            margin-top: 10px;
+            margin-bottom: 10px;    
+        }
+        
+        .field_body,
+        .field_created {
+            font-size: 1.3rem;
+        }
+        
+        .field_created {
+            margin-top: 10px;
+        }
+    }
+    
+    .media-left {
+        padding-right: 50px;
+    }
+}
+
+
+.nar {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .nal {
+        width: 50%;
+        float: left;
+        
+        .field-name-field-image {
+            display: none;
+        }
+    }
+    
+    .nar {
+        display: block;
+        width: 40%;
+        float: right; 
+    }
+}
 

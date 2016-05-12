@@ -98,9 +98,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     // register tasks
-    grunt.registerTask('default', ['less', 'postcss', 'ftp_push', 'watch']);
-    grunt.registerTask('jenkins', ['less', 'postcss', 'ftp_push']);
+   // grunt.registerTask('default', ['less', 'postcss', 'ftp_push', 'watch']);
+   // grunt.registerTask('jenkins', ['less', 'postcss', 'ftp_push']);
    
-   // grunt.registerTask('default', ['less', 'postcss', 'copy:main', 'watch']);
-   // grunt.registerTask('jenkins', ['less', 'postcss', 'copy:main']);
+    grunt.registerTask('default', ['less', 'postcss', 'copy:main', 'watch']);
+    grunt.registerTask('jenkins', ['less', 'postcss', 'copy:main']);
 };
