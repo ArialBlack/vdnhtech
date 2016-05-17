@@ -11,13 +11,28 @@
                 'width': smb});
         }
         
+        $( window ).scroll(function() {
+           s = $(window).scrollTop();
+           if (s > 100) {
+               $('body').addClass('scrolled');
+           } else {
+               $('body').removeClass('scrolled');
+           }
+        });
+        
         $( document ).ready(function() {
-            setButtonPosition();
+           setButtonPosition();
+           s = $(window).scrollTop();
+           if (s > 100) {
+               $('body').addClass('scrolled');
+           } else {
+               $('body').removeClass('scrolled');
+           }
         });
         
         $( window ).resize(function() {
             setButtonPosition();
         });
-        
+         
     });
 }(jQuery));

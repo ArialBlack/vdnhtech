@@ -109,7 +109,7 @@
 
     <section id="main-content-section" class="clearfix">
         <header>
-            <img src="/sites/default/files/ksst.png" width="100" height="113" alt=""/> 
+            <a href="http://www.kyivstar.ua/" target="_blank"><img src="/sites/default/files/ksst.png" width="100" height="113" alt=""/></a> 
         </header>
         <?php if (!empty($page['precontent'])): ?>
             <?php print render($page['precontent']); ?>
