@@ -49,6 +49,7 @@ stylesheets[all][] = css/style.css
 scripts[] = 'js/bootstrap.min.js'
 scripts[] = 'js/jquery.easing.min.js'
 scripts[] = 'js/scrolling-nav.js'
+scripts[] = 'js/scrollteam.js'
 scripts[] = 'js/main.js'
 
 

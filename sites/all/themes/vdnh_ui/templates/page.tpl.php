@@ -109,7 +109,13 @@
 
     <section id="main-content-section" class="clearfix">
         <header>
-            <a href="http://www.kyivstar.ua/" target="_blank"><img src="/sites/default/files/ksst.png" width="100" height="113" alt=""/></a> 
+            <a href="http://www.kyivstar.ua/" target="_blank"><img src="/sites/default/files/ksst.png" width="100" height="113" alt=""/></a>
+            <section id="block-block-17" class="block block-block clearfix">
+            <?php
+                $block = module_invoke('block', 'block_view', '17');
+                print render($block['content']);
+           ?>
+           </section>
         </header>
         <?php if (!empty($page['precontent'])): ?>
             <?php print render($page['precontent']); ?>
