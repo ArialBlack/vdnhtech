@@ -20,9 +20,7 @@
     
     @media (min-width: 1200px) {
         padding: 70px @p100;
-    }
-    
-    
+    } 
     
     &:last-child {
         border: none;
@@ -745,12 +743,18 @@
         }
         
         .field_created {
-            margin-top: 10px;
+           /* margin-top: 10px; */
         }
     }
     
     .media-left {
         padding-right: 50px;
+        
+        img {
+            @media (min-width: 768px) and (max-width: 991px) {
+                max-width: 150px;
+            }
+        }
     }
 }
 
@@ -759,7 +763,7 @@
     display: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
     .nal {
         width: 50%;
         float: left;
@@ -800,24 +804,45 @@
 
 
 #block-block-17 {
-    @h: 62px;
-    float: right;
+    @h: 62px;   
     position: relative;
     z-index: 99;
+    
+    @media (min-width: 768px) {
+        float: right;
+    }
     
     #mc_embed_signup {
         form {
             text-align: right;
         }
         
+        .clear {
+            @media (max-width: 480px) {
+                display: block;
+                width: 100%;
+            }
+            
+            @media (min-width: 481px) {
+                display: inline-block;
+                width: auto;
+            }
+        }
+        
         label {
-            display: inline;
+            display: block;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
             text-transform: uppercase;
-            margin-right: 20px;
+            
             color: black;
-            line-height: @h;
+            
+            
+            @media (min-width: 992px) {
+                display: inline;
+                margin-right: 20px;
+                line-height: @h;
+            }
         }
         
         input.email {
@@ -849,6 +874,8 @@
 
 .page-node-3 {
     #block-block-17 {
+        margin-left: 120px;
+        
         #mc_embed_signup {
             label {
                 color: #fbd81c;
