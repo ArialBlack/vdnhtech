@@ -104,7 +104,9 @@
 .page-node-3 #main-content-section > header,
 .page-node-1 #main-content-section > header,
 .page-node-3 .region-precontent section.block,
-.page-node-1 .region-precontent section.block {
+.page-node-1 .region-precontent section.block,
+.page-node-30 #main-content-section > header,
+.page-node-30 .headerwrap {
     padding: 20px;
     position: relative;
         
@@ -131,7 +133,8 @@
 .page-team,
 .page-news,
 .page-mentors,
-.node-type-article {
+.node-type-article,
+.page-node-30 {
      #main-content-section > header {
         color: white;
         min-height: @hh;
@@ -866,5 +869,23 @@
                 border: #1666a5 1px solid;
             }
         }
+    }
+}
+
+.page-node-30 {
+    h1 {
+        display: none;
+    }
+    
+    #block-system-main {
+        margin-top: 100px;
+        font-size: 24px;
+    }
+    
+    .footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
 }
