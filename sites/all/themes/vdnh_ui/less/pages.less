@@ -43,18 +43,12 @@
 
 .page-node-2 .headerwrap,
 .page-team  .headerwrap,
+.page-node-42 .headerwrap,
 .page-mentors .headerwrap,
 .page-news  .headerwrap,
 .node-type-article .headerwrap {
     display: block;
-}
-
-.page-node-2 .headerwrap,
-.page-team  .headerwrap,
-.page-mentors .headerwrap,
-.page-news  .headerwrap,
-.node-type-article .headerwrap,
- {
+    
     @media(min-width:767px) {
         padding-right: 20% !important;
     }
@@ -71,7 +65,8 @@
 .page-news,
 .page-team,
 .page-mentors,
-.node-type-team-member {
+.node-type-team-member,
+.page-node-42 {
     #main-content-section > header {
         img {
             display: none;
@@ -91,6 +86,8 @@
 
 .page-node-2 #main-content-section > header,
 .page-node-2 .headerwrap,
+.page-node-42 #main-content-section > header,
+.page-node-42 .headerwrap,
 .page-team #main-content-section > header,
 .page-team .headerwrap,
 .page-mentors #main-content-section > header,
@@ -128,6 +125,7 @@
 }
          
 .page-node-2,
+.page-node-42,
 .page-team,
 .page-news,
 .page-mentors,
@@ -914,5 +912,56 @@
         left: 0;
         bottom: 0;
         width: 100%;
+    }
+}
+
+.page-node-42 {
+    .field-name-body {
+        ul {
+            padding: 0;
+            margin: 0;
+            
+            li {
+                list-style: none;
+                display: inline-block;
+                text-align:center;
+                margin-bottom: 60px;
+                width: 100%;
+                vertical-align: top;
+                
+                @media (min-width: 768px) {
+                    width: 50%;
+                    padding: 15px;
+                }
+                
+                @media (min-width: 992px) {
+                    width: 33%;
+                    padding: 30px;
+                }
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                    filter: grayscale(100%);
+                }
+                
+                h6 {
+                    
+                }
+                
+                a {
+                    color: gray;
+                    
+                    &:hover {
+                        color: black;
+                        
+                        img {
+                            filter: none;
+                        }
+                        
+                    }
+                }
+            }
+        }
     }
 }
