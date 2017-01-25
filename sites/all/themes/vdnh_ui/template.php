@@ -1,5 +1,5 @@
-<?php
-/**
- * @file
- * The primary PHP file for this theme.
- */
+<?php
+/**
+ * @file
+ * The primary PHP file for this theme.
+ */

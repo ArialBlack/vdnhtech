@@ -17,7 +17,7 @@ module.exports = function(grunt) {
             }
         },
         
-       ftp_push: {
+       /*ftp_push: {
            your_target: {
                 options: {
 		            authKey: "serverA",
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                     }
                ]
             }
-        },
+        },*/
 
         watch: {
             grunt: {
@@ -50,13 +50,13 @@ module.exports = function(grunt) {
                 tasks: ['less', 'postcss']
             },
             
-            ftppush: {
-                files: [
-                    '../themes/vdnh_ui/**/*.*',
-                    '!../themes/vdnh_ui/**/*.less'
-                ],
-                tasks: ['ftp_push']
-            },
+            //ftppush: {
+            //    files: [
+            //        '../themes/vdnh_ui/**/*.*',
+            //        '!../themes/vdnh_ui/**/*.less'
+            //    ],
+            //    tasks: ['ftp_push']
+           // },
           
           copy: {
                 files: [
@@ -98,8 +98,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     // register tasks
-    grunt.registerTask('default', ['less', 'postcss', 'ftp_push', 'watch']);
-    grunt.registerTask('jenkins', ['less', 'postcss', 'ftp_push']);
+    grunt.registerTask('default', ['less', 'postcss', /*'ftp_push', */'watch']);
+    grunt.registerTask('jenkins', ['less', 'postcss'/*, 'ftp_push'*/]);
    
     //grunt.registerTask('default', ['less', 'postcss', 'copy:main', 'watch']);
    // grunt.registerTask('jenkins', ['less', 'postcss', 'copy:main']);
